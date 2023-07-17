@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# 使用 wget 下载文件到指定目录
+wget -P ./李洪军/模型代码示例 -q -O aclImdb_v1.tar.gz https://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz
+# 解压
+tar -xzvf ./李洪军/模型代码示例/aclImdb_v1.tar.gz -d ./李洪军/模型代码示例/
